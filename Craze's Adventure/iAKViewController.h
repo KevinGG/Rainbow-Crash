@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import "iAKSocialNetwork.h"
 
 @interface iAKViewController : UIViewController
 
 @end
+
+extern iAKSocialNetwork *sn;

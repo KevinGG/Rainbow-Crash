@@ -9,25 +9,45 @@
 #import "iAKViewController.h"
 #import "iAKMyScene.h"
 
+@import AVFoundation;
+@interface iAKViewController()
+
+@property (nonatomic) AVAudioPlayer *backgroundMusicPlayer;
+
+@end
+
 @implementation iAKViewController
-
-- (void)viewDidLoad
+iAKSocialNetwork *sn;
+- (void)viewWillLayoutSubviews
 {
-    [super viewDidLoad];
-
+    [super viewWillLayoutSubviews];
+    
+    //test
+    sn = [[iAKSocialNetwork alloc]initWithUIViewController:self];
+    //[sn TwitterPost];
+    
+    //background music
+    NSError *error;
+    NSURL * backgroundMusicURL = [[NSBundle mainBundle] URLForResource:@"backgroundMusic" withExtension:@"mp3"];
+    self.backgroundMusicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:backgroundMusicURL error:&error];
+    self.backgroundMusicPlayer.numberOfLoops = -1;
+    [self.backgroundMusicPlayer prepareToPlay];
+    [self.backgroundMusicPlayer play];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
-    
-    // Create and configure the scene.
-    SKScene * scene = [iAKMyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    if (!skView.scene) {
+        skView.showsFPS = NO;
+        skView.showsNodeCount = NO;
+        
+        // Create and configure the scene.
+        SKScene * scene = [[iAKMyScene alloc]initWithSize:skView.bounds.size state:GameStateMainMenu];
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        
+        // Present the scene.
+        [skView presentScene:scene];
+    }
 }
-
 - (BOOL)shouldAutorotate
 {
     return YES;
@@ -46,6 +66,11 @@
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end
