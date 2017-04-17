@@ -34,6 +34,10 @@
 		0AB2FCE11984548700CCBD4D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB2FCE01984548700CCBD4D /* GameKit.framework */; };
 		0ABC2FCB1980517A0073B5E6 /* iAKCaObject_Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC2FCA1980517A0073B5E6 /* iAKCaObject_Player.m */; };
 		0ABC2FCE198056A40073B5E6 /* iAKCaObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC2FCD198056A40073B5E6 /* iAKCaObjectManager.m */; };
+		3B6A27621EA46272000F8484 /* Rainbow_Crash_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A27611EA46272000F8484 /* Rainbow_Crash_Tests.m */; };
+		3B6A27701EA4628B000F8484 /* Rainbow_CrashUI_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A276F1EA4628B000F8484 /* Rainbow_CrashUI_Tests.m */; };
+		3B6A27791EA465BB000F8484 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6A27771EA46349000F8484 /* XCTest.framework */; };
+		3B6A277A1EA465CE000F8484 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6A27771EA46349000F8484 /* XCTest.framework */; };
 		8B650FDF1982A6410095CBF8 /* Paint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FDE1982A6410095CBF8 /* Paint.m */; };
 		8B650FE51982AD5A0095CBF8 /* iAKCaObject_Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FE41982AD5A0095CBF8 /* iAKCaObject_Score.m */; };
 		8B650FE81982E9AE0095CBF8 /* iAKCaObject_ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FE71982E9AE0095CBF8 /* iAKCaObject_ScoreBoard.m */; };
@@ -41,7 +45,7 @@
 		8B650FEF1982FA0E0095CBF8 /* iAKCaObject_ScoreBoardYourScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FEE1982FA0E0095CBF8 /* iAKCaObject_ScoreBoardYourScore.m */; };
 		8B650FF21982FEDE0095CBF8 /* iAKCaObjectScoreBoardBestScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FF11982FEDE0095CBF8 /* iAKCaObjectScoreBoardBestScore.m */; };
 		8B650FF5198302080095CBF8 /* iAKSocialNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FF4198302080095CBF8 /* iAKSocialNetwork.m */; };
-		8B650FF7198302390095CBF8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650FF6198302390095CBF8 /* Social.framework */; };
+		8B650FF7198302390095CBF8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650FF6198302390095CBF8 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8B650FFB198304E70095CBF8 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B650FFA198304E70095CBF8 /* restart.png */; };
 		8B650FFE198305390095CBF8 /* iAKCaObject_Restart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650FFD198305390095CBF8 /* iAKCaObject_Restart.m */; };
 		8B65100119832A340095CBF8 /* iAKCaObject_MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B65100019832A340095CBF8 /* iAKCaObject_MainMenu.m */; };
@@ -63,11 +67,6 @@
 		8BF1C351197C6FD20067C672 /* iAKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1C350197C6FD20067C672 /* iAKViewController.m */; };
 		8BF1C354197C6FD20067C672 /* iAKMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1C353197C6FD20067C672 /* iAKMyScene.m */; };
 		8BF1C358197C6FD30067C672 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1C357197C6FD30067C672 /* Images.xcassets */; };
-		8BF1C35F197C6FD30067C672 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF1C35E197C6FD30067C672 /* XCTest.framework */; };
-		8BF1C360197C6FD30067C672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF1C338197C6FD20067C672 /* Foundation.framework */; };
-		8BF1C361197C6FD30067C672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF1C33C197C6FD20067C672 /* UIKit.framework */; };
-		8BF1C369197C6FD30067C672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1C367197C6FD30067C672 /* InfoPlist.strings */; };
-		8BF1C36B197C6FD30067C672 /* Craze_s_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1C36A197C6FD30067C672 /* Craze_s_AdventureTests.m */; };
 		8BF1C384197CA30E0067C672 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1C383197CA30E0067C672 /* background.png */; };
 		8BF1C399197CB9BB0067C672 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1C389197CB9BB0067C672 /* SKAction+SKTExtras.m */; };
 		8BF1C39A197CB9BB0067C672 /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1C38B197CB9BB0067C672 /* SKAction+SKTSpecialEffects.m */; };
@@ -80,12 +79,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8BF1C362197C6FD30067C672 /* PBXContainerItemProxy */ = {
+		3B6A27641EA46272000F8484 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BF1C32D197C6FD20067C672 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8BF1C334197C6FD20067C672;
-			remoteInfo = "Craze's Adventure";
+			remoteInfo = "Rainbow Crash";
+		};
+		3B6A27721EA4628B000F8484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF1C32D197C6FD20067C672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF1C334197C6FD20067C672;
+			remoteInfo = "Rainbow Crash";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -132,6 +138,13 @@
 		0ABC2FCA1980517A0073B5E6 /* iAKCaObject_Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAKCaObject_Player.m; sourceTree = "<group>"; };
 		0ABC2FCC198056A40073B5E6 /* iAKCaObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAKCaObjectManager.h; sourceTree = "<group>"; };
 		0ABC2FCD198056A40073B5E6 /* iAKCaObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAKCaObjectManager.m; sourceTree = "<group>"; };
+		3B6A275F1EA46272000F8484 /* Rainbow Crash Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow Crash Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A27611EA46272000F8484 /* Rainbow_Crash_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rainbow_Crash_Tests.m; sourceTree = "<group>"; };
+		3B6A27631EA46272000F8484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6A276D1EA4628B000F8484 /* Rainbow CrashUI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow CrashUI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A276F1EA4628B000F8484 /* Rainbow_CrashUI_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rainbow_CrashUI_Tests.m; sourceTree = "<group>"; };
+		3B6A27711EA4628B000F8484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6A27771EA46349000F8484 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B650FDD1982A6410095CBF8 /* Paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paint.h; sourceTree = "<group>"; };
 		8B650FDE1982A6410095CBF8 /* Paint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paint.m; sourceTree = "<group>"; };
 		8B650FE31982AD5A0095CBF8 /* iAKCaObject_Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iAKCaObject_Score.h; path = ../iAKCaObject_Score.h; sourceTree = "<group>"; };
@@ -175,11 +188,6 @@
 		8BF1C352197C6FD20067C672 /* iAKMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iAKMyScene.h; sourceTree = "<group>"; };
 		8BF1C353197C6FD20067C672 /* iAKMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAKMyScene.m; sourceTree = "<group>"; };
 		8BF1C357197C6FD30067C672 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8BF1C35D197C6FD30067C672 /* Rainbow CrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow CrashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BF1C35E197C6FD30067C672 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8BF1C366197C6FD30067C672 /* Rainbow CrashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rainbow CrashTests-Info.plist"; sourceTree = "<group>"; };
-		8BF1C368197C6FD30067C672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8BF1C36A197C6FD30067C672 /* Craze_s_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Craze_s_AdventureTests.m; sourceTree = "<group>"; };
 		8BF1C383197CA30E0067C672 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		8BF1C388197CB9BB0067C672 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
 		8BF1C389197CB9BB0067C672 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
@@ -201,6 +209,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B6A275C1EA46272000F8484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A27791EA465BB000F8484 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A276A1EA4628B000F8484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A277A1EA465CE000F8484 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF1C332197C6FD20067C672 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,19 +239,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BF1C35A197C6FD30067C672 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BF1C35F197C6FD30067C672 /* XCTest.framework in Frameworks */,
-				8BF1C361197C6FD30067C672 /* UIKit.framework in Frameworks */,
-				8BF1C360197C6FD30067C672 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6A27601EA46272000F8484 /* Rainbow Crash Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A27611EA46272000F8484 /* Rainbow_Crash_Tests.m */,
+				3B6A27631EA46272000F8484 /* Info.plist */,
+			);
+			path = "Rainbow Crash Tests";
+			sourceTree = "<group>";
+		};
+		3B6A276E1EA4628B000F8484 /* Rainbow CrashUI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A276F1EA4628B000F8484 /* Rainbow_CrashUI_Tests.m */,
+				3B6A27711EA4628B000F8484 /* Info.plist */,
+			);
+			path = "Rainbow CrashUI Tests";
+			sourceTree = "<group>";
+		};
 		8B650FE91982EB200095CBF8 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,7 +306,8 @@
 				0AB2FCC8198425EB00CCBD4D /* icon40re.png */,
 				0AB2FCC7198425D500CCBD4D /* icon60.png */,
 				8BF1C340197C6FD20067C672 /* Rainbow Crash */,
-				8BF1C364197C6FD30067C672 /* Craze's AdventureTests */,
+				3B6A27601EA46272000F8484 /* Rainbow Crash Tests */,
+				3B6A276E1EA4628B000F8484 /* Rainbow CrashUI Tests */,
 				8BF1C337197C6FD20067C672 /* Frameworks */,
 				8BF1C336197C6FD20067C672 /* Products */,
 			);
@@ -284,7 +317,8 @@
 			isa = PBXGroup;
 			children = (
 				8BF1C335197C6FD20067C672 /* Rainbow Crash.app */,
-				8BF1C35D197C6FD30067C672 /* Rainbow CrashTests.xctest */,
+				3B6A275F1EA46272000F8484 /* Rainbow Crash Tests.xctest */,
+				3B6A276D1EA4628B000F8484 /* Rainbow CrashUI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +326,7 @@
 		8BF1C337197C6FD20067C672 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B6A27771EA46349000F8484 /* XCTest.framework */,
 				0A36982919847F58006A151A /* StoreKit.framework */,
 				0AB2FCE01984548700CCBD4D /* GameKit.framework */,
 				8B650FF6198302390095CBF8 /* Social.framework */,
@@ -299,7 +334,6 @@
 				8BF1C33A197C6FD20067C672 /* CoreGraphics.framework */,
 				8BF1C33C197C6FD20067C672 /* UIKit.framework */,
 				8BF1C33E197C6FD20067C672 /* SpriteKit.framework */,
-				8BF1C35E197C6FD30067C672 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -337,24 +371,6 @@
 				8BF1C343197C6FD20067C672 /* InfoPlist.strings */,
 				8BF1C346197C6FD20067C672 /* main.m */,
 				8BF1C348197C6FD20067C672 /* Rainbow Crash-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8BF1C364197C6FD30067C672 /* Craze's AdventureTests */ = {
-			isa = PBXGroup;
-			children = (
-				8BF1C36A197C6FD30067C672 /* Craze_s_AdventureTests.m */,
-				8BF1C365197C6FD30067C672 /* Supporting Files */,
-			);
-			path = "Craze's AdventureTests";
-			sourceTree = "<group>";
-		};
-		8BF1C365197C6FD30067C672 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BF1C366197C6FD30067C672 /* Rainbow CrashTests-Info.plist */,
-				8BF1C367197C6FD30067C672 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -418,6 +434,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3B6A275E1EA46272000F8484 /* Rainbow Crash Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6A27661EA46272000F8484 /* Build configuration list for PBXNativeTarget "Rainbow Crash Tests" */;
+			buildPhases = (
+				3B6A275B1EA46272000F8484 /* Sources */,
+				3B6A275C1EA46272000F8484 /* Frameworks */,
+				3B6A275D1EA46272000F8484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6A27651EA46272000F8484 /* PBXTargetDependency */,
+			);
+			name = "Rainbow Crash Tests";
+			productName = "Rainbow Crash Tests";
+			productReference = 3B6A275F1EA46272000F8484 /* Rainbow Crash Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6A276C1EA4628B000F8484 /* Rainbow CrashUI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6A27741EA4628B000F8484 /* Build configuration list for PBXNativeTarget "Rainbow CrashUI Tests" */;
+			buildPhases = (
+				3B6A27691EA4628B000F8484 /* Sources */,
+				3B6A276A1EA4628B000F8484 /* Frameworks */,
+				3B6A276B1EA4628B000F8484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6A27731EA4628B000F8484 /* PBXTargetDependency */,
+			);
+			name = "Rainbow CrashUI Tests";
+			productName = "Rainbow CrashUI Tests";
+			productReference = 3B6A276D1EA4628B000F8484 /* Rainbow CrashUI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8BF1C334197C6FD20067C672 /* Rainbow Crash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BF1C36E197C6FD30067C672 /* Build configuration list for PBXNativeTarget "Rainbow Crash" */;
@@ -435,24 +487,6 @@
 			productReference = 8BF1C335197C6FD20067C672 /* Rainbow Crash.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8BF1C35C197C6FD30067C672 /* Rainbow CrashTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF1C371197C6FD30067C672 /* Build configuration list for PBXNativeTarget "Rainbow CrashTests" */;
-			buildPhases = (
-				8BF1C359197C6FD30067C672 /* Sources */,
-				8BF1C35A197C6FD30067C672 /* Frameworks */,
-				8BF1C35B197C6FD30067C672 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BF1C363197C6FD30067C672 /* PBXTargetDependency */,
-			);
-			name = "Rainbow CrashTests";
-			productName = "Craze's AdventureTests";
-			productReference = 8BF1C35D197C6FD30067C672 /* Rainbow CrashTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -460,9 +494,19 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = iAK;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = iAK;
 				TargetAttributes = {
+					3B6A275E1EA46272000F8484 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BF1C334197C6FD20067C672;
+					};
+					3B6A276C1EA4628B000F8484 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BF1C334197C6FD20067C672;
+					};
 					8BF1C334197C6FD20067C672 = {
 						DevelopmentTeam = Z5C39XYP56;
 						SystemCapabilities = {
@@ -473,9 +517,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					8BF1C35C197C6FD30067C672 = {
-						TestTargetID = 8BF1C334197C6FD20067C672;
 					};
 				};
 			};
@@ -493,12 +534,27 @@
 			projectRoot = "";
 			targets = (
 				8BF1C334197C6FD20067C672 /* Rainbow Crash */,
-				8BF1C35C197C6FD30067C672 /* Rainbow CrashTests */,
+				3B6A275E1EA46272000F8484 /* Rainbow Crash Tests */,
+				3B6A276C1EA4628B000F8484 /* Rainbow CrashUI Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3B6A275D1EA46272000F8484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A276B1EA4628B000F8484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF1C333197C6FD20067C672 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,17 +590,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BF1C35B197C6FD30067C672 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BF1C369197C6FD30067C672 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B6A275B1EA46272000F8484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A27621EA46272000F8484 /* Rainbow_Crash_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A27691EA4628B000F8484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A27701EA4628B000F8484 /* Rainbow_CrashUI_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF1C331197C6FD20067C672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,21 +646,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BF1C359197C6FD30067C672 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BF1C36B197C6FD30067C672 /* Craze_s_AdventureTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BF1C363197C6FD30067C672 /* PBXTargetDependency */ = {
+		3B6A27651EA46272000F8484 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8BF1C334197C6FD20067C672 /* Rainbow Crash */;
-			targetProxy = 8BF1C362197C6FD30067C672 /* PBXContainerItemProxy */;
+			targetProxy = 3B6A27641EA46272000F8484 /* PBXContainerItemProxy */;
+		};
+		3B6A27731EA4628B000F8484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF1C334197C6FD20067C672 /* Rainbow Crash */;
+			targetProxy = 3B6A27721EA4628B000F8484 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -617,17 +678,81 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8BF1C367197C6FD30067C672 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BF1C368197C6FD30067C672 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3B6A27671EA46272000F8484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Rainbow Crash Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP.Rainbow-Crash-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow Crash.app/Rainbow Crash";
+			};
+			name = Debug;
+		};
+		3B6A27681EA46272000F8484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "Rainbow Crash Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP.Rainbow-Crash-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow Crash.app/Rainbow Crash";
+			};
+			name = Release;
+		};
+		3B6A27751EA4628B000F8484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Rainbow CrashUI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP.Rainbow-CrashUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rainbow Crash";
+			};
+			name = Debug;
+		};
+		3B6A27761EA4628B000F8484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "Rainbow CrashUI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP.Rainbow-CrashUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rainbow Crash";
+			};
+			name = Release;
+		};
 		8BF1C36C197C6FD30067C672 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -641,13 +766,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -660,7 +791,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -680,20 +811,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -710,7 +846,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craze's Adventure/Rainbow Crash-Prefix.pch";
 				INFOPLIST_FILE = "Craze's Adventure/Rainbow Crash-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iAK.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Rainbow Crash";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -729,7 +866,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craze's Adventure/Rainbow Crash-Prefix.pch";
 				INFOPLIST_FILE = "Craze's Adventure/Rainbow Crash-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iAK.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Rainbow Crash";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -738,49 +876,25 @@
 			};
 			name = Release;
 		};
-		8BF1C372197C6FD30067C672 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Craze's Adventure.app/Craze's Adventure";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Craze's Adventure/Craze's Adventure-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Craze's AdventureTests/Rainbow CrashTests-Info.plist";
-				PRODUCT_NAME = "Rainbow CrashTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8BF1C373197C6FD30067C672 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Craze's Adventure.app/Craze's Adventure";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Craze's Adventure/Craze's Adventure-Prefix.pch";
-				INFOPLIST_FILE = "Craze's AdventureTests/Rainbow CrashTests-Info.plist";
-				PRODUCT_NAME = "Rainbow CrashTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B6A27661EA46272000F8484 /* Build configuration list for PBXNativeTarget "Rainbow Crash Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A27671EA46272000F8484 /* Debug */,
+				3B6A27681EA46272000F8484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B6A27741EA4628B000F8484 /* Build configuration list for PBXNativeTarget "Rainbow CrashUI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A27751EA4628B000F8484 /* Debug */,
+				3B6A27761EA4628B000F8484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8BF1C330197C6FD20067C672 /* Build configuration list for PBXProject "Rainbow Crash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -795,15 +909,6 @@
 			buildConfigurations = (
 				8BF1C36F197C6FD30067C672 /* Debug */,
 				8BF1C370197C6FD30067C672 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8BF1C371197C6FD30067C672 /* Build configuration list for PBXNativeTarget "Rainbow CrashTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BF1C372197C6FD30067C672 /* Debug */,
-				8BF1C373197C6FD30067C672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

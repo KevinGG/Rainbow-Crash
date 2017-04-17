@@ -18,14 +18,17 @@
 
 @implementation iAKViewController
 iAKSocialNetwork *sn;
+
+- (void)loadView{
+    [super loadView];
+    self.view = [[SKView alloc]initWithFrame:self.view.bounds];
+}
+
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
     
-    //test
     sn = [[iAKSocialNetwork alloc]initWithUIViewController:self];
-    //[sn TwitterPost];
-    
     //background music
     NSError *error;
     NSURL * backgroundMusicURL = [[NSBundle mainBundle] URLForResource:@"backgroundMusic" withExtension:@"mp3"];
@@ -34,26 +37,23 @@ iAKSocialNetwork *sn;
     [self.backgroundMusicPlayer prepareToPlay];
     [self.backgroundMusicPlayer play];
     
+    SKView *gameView = (SKView *)self.view;
+    
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    if (!skView.scene) {
-        skView.showsFPS = NO;
-        skView.showsNodeCount = NO;
-        
-        // Create and configure the scene.
-        SKScene * scene = [[iAKMyScene alloc]initWithSize:skView.bounds.size state:GameStateMainMenu];
-        scene.scaleMode = SKSceneScaleModeAspectFill;
-        
-        // Present the scene.
-        [skView presentScene:scene];
-    }
+    gameView.showsFPS = NO;
+    gameView.showsNodeCount = NO;
+    
+    // Create and configure the scene.
+    SKScene * scene = [[iAKMyScene alloc]initWithSize:CGSizeMake(569, 320) state:GameStateMainMenu];
+    [gameView presentScene:scene];
 }
+
 - (BOOL)shouldAutorotate
 {
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         return UIInterfaceOrientationMaskAllButUpsideDown;
@@ -65,7 +65,6 @@ iAKSocialNetwork *sn;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
 }
 
 -(BOOL)prefersStatusBarHidden

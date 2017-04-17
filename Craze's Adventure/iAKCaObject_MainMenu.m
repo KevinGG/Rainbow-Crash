@@ -28,7 +28,6 @@
         [self setNodeHelpButtonLocation];
         [self setNodeFacebookLocation];
         [self setNodeTwitterLocation];
-        
     }
     return self;
 }
@@ -65,15 +64,5 @@
     self.twitterButton.anchorPoint = CGPointMake(0.5, 0.5);
     self.twitterButton.position=CGPointMake(420,240);
 }
-
-
--(void)setNodePhysicsBody{
-    
-}
-
-
--(void)myaction{
-}
-
 
 @end

@@ -65,34 +65,19 @@ iAKClock *myClock;
         jumpSoundAction = [SKAction playSoundFileNamed:@"jumpSound.mp3" waitForCompletion:NO];
         crashSoundAction = [SKAction playSoundFileNamed:@"crashSound.mp3" waitForCompletion:NO];
         manager = [[iAKCaObjectManager alloc]initWithScene:self];
-        [self setupBackground];
-        [self setupFrontground];
-        [self setupPlayer];
-        [self setupBarrier];
         self.physicsWorld.gravity = CGVectorMake(0, 0);
         self.physicsWorld.contactDelegate = self;
         if (state == GameStateMainMenu) {
-            [self switchToMainMenu];
+            [self setupMainMenu];
         }else if(state == GameStatePlay){
-            [self setupClock];
-            [self setupTarget];
-            [self setupScore];
-            //start countDown
-            [myClock startCountDown: nil second:25 minute:0 hour:0 day:0 month:0 year:0];
-            //------Alina's code_get the starttime to calculate score
-            startDay = myClock.getCurrentDay;
-            startHour = myClock.getCurrentHour;
-            startMinute = myClock.getCurrentMinute;
-            startSecond = myClock.getCurrentSecond;
-            //------
-
+            [self setupPlay];
         }
     }
     return self;
 }
 
 #pragma mark - setup methods
--(void)setupAll{
+-(void)setupPlay{
     [self setupClock];
     [self setupTarget];
     [self setupBackground];
@@ -100,9 +85,18 @@ iAKClock *myClock;
     [self setupBarrier];
     [self setupPlayer];
     [self setupScore];
+    //start countDown
+    [myClock startCountDown: nil second:30 minute:0 hour:0 day:0 month:0 year:0];
+    startDay = myClock.getCurrentDay;
+    startHour = myClock.getCurrentHour;
+    startMinute = myClock.getCurrentMinute;
+    startSecond = myClock.getCurrentSecond;
 }
 
 -(void)setupMainMenu{
+    [self setupBackground];
+    [self setupFrontground];
+    [self setupBarrier];
     CaMainMenu = [manager newObjectWithID:11];
 }
 
@@ -127,7 +121,6 @@ iAKClock *myClock;
 -(void)setupScore{
     CaScore = [manager newObjectWithID:6];
 }
-
 
 -(void)setupClock{
     myClock=[[iAKClock alloc] init];
@@ -235,10 +228,6 @@ iAKClock *myClock;
 #pragma mark - switch to other gamestate
 -(void)switchToMainMenu{
     _gameState = GameStateMainMenu;
-    [self setupBackground];
-    [self setupFrontground];
-    [self setupBarrier];
-    [self setupPlayer];
     [self setupMainMenu];
 }
 
@@ -246,11 +235,9 @@ iAKClock *myClock;
     _gameState = GameStateShowingScore;
     [self setupScoreBoard];
     [self setupScoreBoardYourScore];
-    NSLog(@"%d",yourScore.score);
     if (yourScore.score>[self bestScore]) {
         [self setBestScore:yourScore.score];
     }
-    //[self setBestScore:0];
     [self setupScoreBoardBestScore];
     [self setupRestartButton];
 }

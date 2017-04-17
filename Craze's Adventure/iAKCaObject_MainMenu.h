@@ -16,5 +16,4 @@
 @property SKSpriteNode *facebookButton;
 @property SKSpriteNode *twitterButton;
 
-
 @end

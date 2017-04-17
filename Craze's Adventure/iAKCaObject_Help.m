@@ -21,8 +21,6 @@
         self.helpPage2 = [SKSpriteNode spriteNodeWithImageNamed:@"formular.png"];
         self.helpPage3 = [SKSpriteNode spriteNodeWithImageNamed:@"jump.png"];
         self.helpPage4 = [SKSpriteNode spriteNodeWithImageNamed:@"indication.png"];
-
-
         self.homeButton = [SKSpriteNode spriteNodeWithImageNamed:@"homebutton.png"];
         self.next = [SKSpriteNode spriteNodeWithImageNamed:@"next.png"];
         self.previous = [SKSpriteNode spriteNodeWithImageNamed:@"previous"];
@@ -73,6 +71,5 @@
     self.homeButton.anchorPoint = CGPointMake(0.5, 0.5);
     self.homeButton.position=CGPointMake(530,290);
 }
-
 
 @end
