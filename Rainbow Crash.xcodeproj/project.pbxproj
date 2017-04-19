@@ -851,7 +851,7 @@
 				PRODUCT_NAME = "Rainbow Crash";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -871,7 +871,7 @@
 				PRODUCT_NAME = "Rainbow Crash";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -886,6 +886,7 @@
 				3B6A27681EA46272000F8484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6A27741EA4628B000F8484 /* Build configuration list for PBXNativeTarget "Rainbow CrashUI Tests" */ = {
 			isa = XCConfigurationList;
@@ -894,6 +895,7 @@
 				3B6A27761EA4628B000F8484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BF1C330197C6FD20067C672 /* Build configuration list for PBXProject "Rainbow Crash" */ = {
 			isa = XCConfigurationList;
