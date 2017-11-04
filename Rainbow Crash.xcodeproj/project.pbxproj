@@ -508,7 +508,7 @@
 						TestTargetID = 8BF1C334197C6FD20067C672;
 					};
 					8BF1C334197C6FD20067C672 = {
-						DevelopmentTeam = Z5C39XYP56;
+						DevelopmentTeam = VFVF7G5JFX;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -843,6 +843,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VFVF7G5JFX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craze's Adventure/Rainbow Crash-Prefix.pch";
 				INFOPLIST_FILE = "Craze's Adventure/Rainbow Crash-Info.plist";
@@ -863,6 +864,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VFVF7G5JFX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craze's Adventure/Rainbow Crash-Prefix.pch";
 				INFOPLIST_FILE = "Craze's Adventure/Rainbow Crash-Info.plist";
